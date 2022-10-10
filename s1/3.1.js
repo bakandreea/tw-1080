@@ -9,3 +9,22 @@ function makeArray(s){
 
 
 console.log(makeArray('1 2 3 4 5'))
+
+
+
+function makeArray2(source, ...args ) { 
+    for(const elem of args){
+        source.push(elem)
+    }
+    return source
+}
+
+console.log(makeArray2([1,2,3,4],5,6,7))
+
+
+
+function makeArray21(source, ...args){
+    return source.concat(args)
+}
+
+console.log(makeArray2([1,2,3,4],5,6,7))

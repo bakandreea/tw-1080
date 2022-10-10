@@ -28,3 +28,7 @@ function makeArray21(source, ...args){
 }
 
 console.log(makeArray2([1,2,3,4],5,6,7))
+
+
+let a = [1,2,3]
+let b = [...a] //asa se face copie
